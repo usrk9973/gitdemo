@@ -1,2 +1,3 @@
 # gitdemo
-learning git 
+Srujan kumar
+is learning web development
