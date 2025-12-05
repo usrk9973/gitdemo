@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lists in html</title>
+</head>
+<body>
+    <h6>Unordered list : </h6>
+    <!-- type = disc,circle,square,none -->
+    <ul type="square"> 
+        <li>HTML</li>
+        <li>CSS
+            <ul type="disc">
+                <li>Flexbox</li>
+                <li>Grid</li>
+            </ul>
+        </li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h6>Ordered list : </h6>
+
+        <ol>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+        </ol>
+        <br/>
+        <ol reversed="True">
+            <li>english</li>
+            <ol type="a">
+                <li>parts</li>
+                <li>contents</li>
+                <li>types</li>
+                <li>words</li>
+                <ul>
+                    <li>dummy1</li>
+                    <li>dummy2</li>
+                </ul>
+                <li>patterns</li>
+            </ol>
+            <li>social</li>
+            <li>hindi</li>
+        </ol>
+        <br/>
+        <ol start="100"">
+            <li>english</li>
+            <li>social</li>
+            <li>hindi</li>
+        </ol><br/>
+        <ol start="8" type="I" reversed="True">
+            <li>english</li>
+            <li>social</li>
+            <li>hindi</li>
+        </ol>
+    <h6>Definition list : </h6>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+        <dt>Tea</dt>
+        <dd>Green warm drink</dd>
+    </dl>
+</body>
+</html>
